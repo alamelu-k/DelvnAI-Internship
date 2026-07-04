@@ -62,6 +62,7 @@ This program reads transaction data from a CSV file, calculates the total amount
 Files
 
 main.py - Python program
+
 transactions.csv - Sample transaction data
 
 How to Run
