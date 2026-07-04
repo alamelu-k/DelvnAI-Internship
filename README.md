@@ -41,4 +41,33 @@ If the database takes too long to return data, the API response will be delayed.
 
 PART-B
 
+# Part B - Transaction Analyzer
 
+Description
+This program reads transaction data from a CSV file, calculates the total amount for each category, sorts the totals from highest to lowest, and displays the results.
+
+Files
+main.py - Python program
+transactions.csv - Sample transaction data
+
+How to Run
+1. Make sure Python is installed.
+2. Keep main.py and transactions.csv in the same folder.
+3. Open a terminal in that folder.
+4. Run:
+   python main.py
+   
+
+Sample Output
+
+Software: 2999
+Travel: 2000
+Food: 750
+
+Error Handling
+If a transaction has a missing field or an invalid amount, the program skips that row instead of crashing.
+
+Future Improvement
+If I had more time, I would learn more about working with JSON files and update the program to support both CSV and JSON formats. I would also allow users to choose which type of file they want the program to read.
+
+PART - C
