@@ -14,7 +14,7 @@ Example:
 
 Students
 
-ID   Name
+ID  Name
 
 1   Asha
 
@@ -28,9 +28,9 @@ Marks
 
 ID  Marks
 
-1   90
+1    90
 
-2   85
+2    85
 
 INNER JOIN: Asha, Ravi
 
