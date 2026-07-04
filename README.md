@@ -76,7 +76,9 @@ How to Run
 Sample Output
 
 Software: 2999
+
 Travel: 2000
+
 Food: 750
 
 Error Handling
