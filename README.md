@@ -14,9 +14,9 @@ Example:
 
 Students
 
-ID  Name
+ID   Name
 
- 1 Asha
+1   Asha
 
 2   Ravi
 
