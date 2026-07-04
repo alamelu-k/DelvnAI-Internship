@@ -10,14 +10,18 @@ Example: A school is a process, and the teachers are threads. The school is one 
 An INNER JOIN returns only the rows that have matching values in both tables. A LEFT JOIN returns all rows from the left table and the matching rows from the right table. If there is no match, it returns NULL for the right table.
 
 Example:
+
 Students
+
 ID  Name
 1   Asha
 2   Ravi
 3   Meena
    
 Marks
+
 ID  Marks
+
 1   90
 2   85
 INNER JOIN: Asha, Ravi
@@ -71,3 +75,4 @@ Future Improvement
 If I had more time, I would learn more about working with JSON files and update the program to support both CSV and JSON formats. I would also allow users to choose which type of file they want the program to read.
 
 PART - C
+
