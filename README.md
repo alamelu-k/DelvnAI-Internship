@@ -1,4 +1,5 @@
 PART - A
+
 1.Explain the difference between a process and a thread, in your own words, with one real-life example.
 
 A process is an independent program running on a computer with its own memory and resources. A thread is a smaller unit of a process that shares the same memory with other threads in that process.
