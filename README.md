@@ -76,3 +76,4 @@ If I had more time, I would learn more about working with JSON files and update 
 
 PART - C
 
+While working on Part B, I was not sure how error handling worked in Python. I learned the difference between "ValueError" and "KeyError" and how to use "try" and "except" to handle errors without crashing the program. I also found the sorting part challenging because I was only familiar with basic ascending and descending sorting. I learned how the "sorted()" function can sort dictionary data using a key. 
