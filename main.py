@@ -3,20 +3,25 @@ import csv
 category_totals = {}
 
 try:
-    with open("transactions.csv", "r") as file:
-        reader = csv.DictReader(file)
+    file = open("transactions.csv", "r")
+    reader = csv.DictReader(file)
 
-        for row in reader:
-            try:
-                category = row["category"].strip()
-                amount = float(row["amount"])
+    for row in reader:
+        try:
+            category = row["category"]
+            amount = float(row["amount"])
 
-                category_totals[category] = category_totals.get(category, 0) + amount
+            if category in category_totals:
+                category_totals[category] = category_totals[category] + amount
+            else:
+                category_totals[category] = amount
 
-            except (ValueError, KeyError):
-                print(f"Skipping invalid row: {row}")
+        except (ValueError, KeyError):
+            print("Skipping invalid row:", row)
 
-    print("\nTotal Amount Per Category")
+    file.close()   
+
+    print("Total Amount Per Category")
     print("-------------------------")
 
     sorted_totals = sorted(
